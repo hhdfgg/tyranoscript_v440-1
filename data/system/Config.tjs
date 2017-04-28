@@ -1,5 +1,5 @@
 // Config.tjs - ティラノスクリプト 設定
-// Copyright (C) 2012-2015 ShikemokuMK  
+// Copyright (C) 2012-2015 ShikemokuMK
 
 ;global.config_version = "4.10"; // この行を消さないでください
 
@@ -52,9 +52,9 @@ function KAGWindow_config()
 ;scWidth = 960;
 ;scHeight = 640;
 
-// ◆ 文字表示スピード 
-// delay で指定した場合はその値が優先されます。resetdelayで元に戻ります 
-;chSpeed = 30; 
+// ◆ 文字表示スピード
+// delay で指定した場合はその値が優先されます。resetdelayで元に戻ります
+;chSpeed = 30;
 
 // ◆ 文字表示スピード (ミリ秒/文字)（未実装）
 ;chSpeeds.fast = 10; // 「高速」文字表示スピード
@@ -94,7 +94,7 @@ function KAGWindow_config()
 // 独自の画像カーソルを使用したい場合はimageフォルダに配置した上で、ファイル名を指定してください
 // [cursor]タグを使って、ゲーム中に変更することもできます。
 
-;cursorDefault = default; // 通常のマウスカーソル 
+;cursorDefault = default; // 通常のマウスカーソル
 
 // ◆ デフォルトのサウンド・動画フォーマットを指定
 // デフォルトはogg形式です
@@ -104,7 +104,7 @@ function KAGWindow_config()
 // Windows・Mac のアプリ形式で動かす場合は ogg を指定する必要があります。mp3は鳴らせません
 // "ogg" もしくは "mp3" を指定します。
 
-;mediaFormatDefault = ogg; 
+;mediaFormatDefault = ogg;
 
 // ◆ BGMの音量 0 〜 100 で指定します。
 ;defaultBgmVolume = 100;
@@ -140,7 +140,7 @@ function KAGWindow_config()
 // 0の場合、保存を行いません。
 ;maxBackLogNum = 50;
 
-// ◆ ラベル記録  
+// ◆ ラベル記録
 // 重要：既読管理を有効にしたい場合は必ずtrueを指定して下さい
 // 自動的に「読んだ」ラベルを記録するかどうかを指定します。
 // この設定が false でなく true になっていると、ラベルを読むごとにシステム
@@ -164,7 +164,7 @@ function KAGWindow_config()
 ;unReadTextSkip = false 　
 
 //既読のテキストの色(0x000000形式)を変更できます。default を指定すると既読テキストでも色は変わりません。
-;alreadyReadTextColor = 0x87cefa 
+;alreadyReadTextColor = 0x87cefa
 
 // ◆ 初期状態の前景レイヤの数
 // 必要なければ 0 を指定してかまいません。
@@ -286,7 +286,7 @@ function MessageLayer_config()
 // true を設定すると、行末での自動改行、ページ末での自動改ページが行われま
 // す。false を設定するとこれらが行われない他、禁則処理等もされなくなりま
 // す。
-;defaultAutoReturn = true; 
+;defaultAutoReturn = true;
 
 
 // ◆ 右文字マージン
